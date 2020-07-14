@@ -4,8 +4,12 @@ public enum CharsTicTac {
     Empty('.');
 
     private char sim;
-    CharsTicTac(char sim){
+
+    CharsTicTac(char sim) {
         this.sim = sim;
     }
-    public char getSim(){ return sim;}
+
+    public char getSim() {
+        return sim;
+    }
 }
